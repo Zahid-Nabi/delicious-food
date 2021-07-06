@@ -149,13 +149,17 @@ h1 span {
 /* Subscribe Section */
 .subscribe {
     padding: 150px;
-    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.233)), url("./images/subscribe-bg.jpg");
+    background: linear-gradient(to right, rgb(10, 26, 10), rgba(0, 0, 0, 0.233)), url("./images/subscribe-bg.jpg");
     background-repeat: none;
     background-size: cover;
 }
 .subscribe h2 {
     margin-bottom: 30px;
     color: white;
+}
+.subscribe p {
+    color: white;
+    width: 60%;
 }
 .subscribe input {
     width: 600px;
