@@ -19,7 +19,7 @@ h2 {
     margin: 0;
 }
 h3 {
-
+    font-size: 30px;
 }
 p {
     font-size: 18px;
@@ -52,15 +52,9 @@ h1 span {
 .top-banner p {
     width: 75%;
 }
-.banner-text {
-
-}
 .banner-text h1 {
     margin: 0;
     font-weight: 900;
-}
-.banner-img {
-
 }
 .banner-img img {
     width: 100%;
@@ -74,12 +68,7 @@ h1 span {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about-img {
 
-}
-.about-img img {
-    /* width: 100%; */
-}
 .about-text {
     padding-left: 150px;
 }
@@ -107,18 +96,60 @@ h1 span {
     width: 60%;
     margin: 35px auto;
 }
-.recipie-items {
 
-}
 .recipies .item {
     width: 27.33%;
     margin: 0 3%;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 15px gray;
     text-align: left;
     color: black;
 }
 .recipies .item img {
     width: 100%;
+}
+
+/* Counter Section */
+
+.counter {
+    padding: 100px;
+    text-align: center;
+}
+.item-wrapper {
+    padding: 70px 0;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 20px;
+}
+.counter .item {
+    width: 27.33%;
+    margin: 0 3%;
+}
+.counter .item h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 900;
+}
+.counter .item h5 {
+    margin: 0;
+    color: #444;
+}
+
+/* Footer Section */
+
+footer {
+    background: rgb(2, 12, 3);
+    padding: 50px 0;
+    text-align: center;
+}
+footer h3 {
+    color: gray;
+    margin: 0;
+}
+footer h3 span {
+    color: green;
+}
+footer p {
+    color: rgb(222, 243, 227);
 }
