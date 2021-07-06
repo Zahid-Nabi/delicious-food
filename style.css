@@ -71,6 +71,7 @@ h1 span {
 
 .about-text {
     padding-left: 150px;
+    padding-bottom: 50px;
 }
 .about-text h2 {
     color: gray;
@@ -79,6 +80,7 @@ h1 span {
 .about-text p {
     color: #444;
     padding-right: 120px;
+    margin-bottom: 80px;
 }
 
 /* Recipies Section */
@@ -98,16 +100,24 @@ h1 span {
 }
 
 .recipies .item {
-    width: 27.33%;
-    margin: 0 3%;
+    width: 30.33%;
+    margin: 0 1.5%;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 15px gray;
     text-align: left;
+    
+}
+.recipies .item h3 {
+    color: black;
+    font-weight: 900;
+}
+.recipies .item p {
     color: black;
 }
 .recipies .item img {
     width: 100%;
+    border-radius: 20px;
 }
 
 /* Counter Section */
@@ -146,6 +156,7 @@ footer {
 footer h3 {
     color: gray;
     margin: 0;
+    font-weight: 900;
 }
 footer h3 span {
     color: green;
